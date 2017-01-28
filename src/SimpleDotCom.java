@@ -4,11 +4,13 @@
 import java.util.ArrayList;
 public class SimpleDotCom {
 
-    int[] locationCells;
-    int numOfHits = 0;
+    private ArrayList<String> locationCells;
+
+    //int[] locationCells;
+    //int numOfHits = 0;
 
     public void setLocationCells(ArrayList<String> loc) {
-        locationCells = locs;
+        locationCells = loc;
     }
 
         public String checkYourself(String userInput) {
