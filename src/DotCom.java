@@ -1,7 +1,7 @@
 /**
  * Created by aleksandr on 28.01.17.
  */
-import java.util.*
+import java.util.*;
 
 public class DotCom {
     private ArrayList<String> locationCells;

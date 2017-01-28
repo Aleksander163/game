@@ -8,17 +8,17 @@ public class DotComBust {
     private int numOfGuesses = 0;
 
     private void setUpGame() {
-        DotCom on = new DotCom();
+        DotCom one = new DotCom();
         one.setName ("Pets.com");
         DotCom two = new DotCom();
         one.setName("eToys.com");
-        DotCom three = naw DotCom();
+        DotCom three = new DotCom();
         three.setName ("Go2.com");
         dotComsList.add(one);
         dotComsList.add(two);
         dotComsList.add(three);
 
-        System.out.println("Ваша цель - потопить три "сайта".");
+        System.out.println("Ваша цель - потопить три \"сайта\".");
         System.out.println("Pets.com, eToys.com, Go2.com");
         System.out.println("Попытайтесь потопить из за минимальное количество ходов");
 
@@ -51,7 +51,7 @@ public class DotComBust {
         System.out.println(result);
     }
     private void finichGame() {
-        System.out.println("Все "сайты" ушли ко дну! Ваши акции теперь неичего не стоят.");
+        System.out.println("Все \"сайты\" ушли ко дну! Ваши акции теперь неичего не стоят.");
         if (numOfGuesses <= 18) {
             System.out.println("Это заняло у вса всего" + numOfGuesses + "попыток.");
             System.out.println("Вы успели выбраться до того, как ваши акции утонули.");
