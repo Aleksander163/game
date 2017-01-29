@@ -1,6 +1,3 @@
-/**
- * Created by aleksandr on 22.01.17.
- */
 import java.util.ArrayList;
 public class SimpleDotCom {
 
@@ -13,7 +10,7 @@ public class SimpleDotCom {
         locationCells = loc;
     }
 
-        public String checkYourself(String userInput) {
+    public String checkYourself(String userInput) {
 
         String result = "Мимо";
         int index = locationCells.indexOf(userInput);
@@ -28,6 +25,6 @@ public class SimpleDotCom {
 
         }
 
-           return result;
+        return result;
     }
 }

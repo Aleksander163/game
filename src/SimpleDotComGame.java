@@ -15,11 +15,11 @@ public class SimpleDotComGame {
         int randomNum = (int) (Math.random() * 5);
 
         ArrayList<String> myList = new ArrayList<String>();
-        String a = new String("randomNum");
+        String a = new String("3");
         myList.add(a);
-        String b = new String("randomNum+1");
+        String b = new String("5");
         myList.add(b);
-        String c = new String("randomNum+2");
+        String c = new String("7");
         myList.add(c);
 
         theDotCom.setLocationCells(myList);
