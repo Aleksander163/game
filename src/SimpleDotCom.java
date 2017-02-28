@@ -16,7 +16,7 @@ public class SimpleDotCom {
         int index = locationCells.indexOf(userInput);
         if (index >= 0) {
 
-            locationCells.remove(index);
+           locationCells.remove(index);
             if (locationCells.isEmpty()){
                 result = "Потопил";
             } else {
