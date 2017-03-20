@@ -21,7 +21,7 @@ public class DotCom {
 
             if (locationCells.isEmpty()) {
                 result = "Попопил";
-                System.out.println("Ой! Вы потопили" + name + "  :( ");
+                System.out.println("Ой! Вы потопили " + name + " :( ");
             } else {
                 result = "Попал";
             }
